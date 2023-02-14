@@ -53,7 +53,7 @@ function App() {
               <input className={darkMode && "dark-mode-cards light-mode-words"} type="text" id="fname" placeholder="Search for a country..." onChange={(e) => setSearch(e.target.value)} />
             </form>
           </div>
-          <div className='col-5 col-md-3 col-lg-2'>
+          <div className='col-6 col-md-3 col-lg-2'>
             <select className={darkMode && "dark-mode-cards light-mode-select"} onChange={(e) => {
               const selectedRegion = e.target.value;
               setMakeout(selectedRegion);
