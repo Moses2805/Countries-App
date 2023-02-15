@@ -75,7 +75,7 @@ function App() {
           {
 
             cards.filter((c) => {
-              return search.toLowerCase() === '' ? c : c.name.official.toLowerCase().includes(search)
+              return search.toLowerCase() === '' ? c : c.name.official.toLowerCase().includes(search.toLowerCase())
             }).filter((c) => {
               return c.region.includes(makeout);
             }).map((c) => (
