@@ -1,0 +1,47 @@
+.cold{
+  background-color: #035aa6;
+  transition: all 0.5s;
+}
+
+.hot{
+  background-color: #ff5200;
+  transition: all 0.5s;
+}
+
+.container .row .tempBox{
+  background-color: #89B374;
+  height: 300px;
+  border-radius: 5%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container .row .tempBox .showingTemp{
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.container .row .tempBox .showingTemp p{
+  color: white;
+  font-size: 25px;
+  padding: 50px;
+
+}
+
+.container .row .tempBox p{
+  text-align: center;
+}
+
+.container .row .tempBox .incrTemp, .container .row .tempBox .decrTemp{
+  border-radius: 50%;
+  background-color: #404040;
+  cursor: pointer;
+  border: 2px solid white;
+
+}
+
+.container .row .tempBox .incrTemp p, .container .row .tempBox .decrTemp p{
+  color: white;
+  font-size: 25px;
+  padding: 10px 15px 5px 15px;
+
+}
